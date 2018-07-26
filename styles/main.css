@@ -1,0 +1,102 @@
+body {
+	box-sizing: border-box;
+	background-color: #4286f4;
+	vertical-align: middle;
+	color: gray;
+}
+
+input {
+	border: 1px solid gray;
+	border-radius: 2px;
+	display: block;
+	box-sizing: border-box;
+}
+
+input:focus {
+	box-shadow: 0 0 5px rgba(142, 185, 255, 1);
+}
+
+form fieldset {	
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+form {
+	text-align: left;
+	margin: 0 auto;
+}
+
+button {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	text-align: center;
+}
+
+.logo {
+	height: 35px;
+	margin: 40px auto 20px auto;
+}
+
+.form-container {
+	width: 400px;
+	padding: 40px;
+	background-color: white;
+	margin: 0 auto;
+}
+.form-width {
+	width: 320px;
+	margin: auto;
+}
+
+.legend {
+	font-size: 2em;
+	color: gray;
+	margin: 20px 0;
+}
+
+.input-field {
+	margin: 15px 0;
+	width: 320px;
+	padding: 15px;
+	border: 1px solid #eaeaea;
+	background-color: #fcfcfc;
+	color: gray;
+}
+
+.signup-submit {
+	margin: 5px auto;
+	width: 320px;
+	padding: 15px;
+	background-color: #72e559;
+	color: white;
+	border: 0px;
+	border-radius: 2px;
+	font-weight: bolder;
+	transition: ease .3s;
+}
+
+.signup-submit:hover {
+	background-color: #51bc3a;
+	
+}
+
+.text-white {	
+	color: white;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-center a {
+	text-decoration: underline;
+	color: white;
+}
+
+.text-bold {
+	font-weight: bold;
+}
